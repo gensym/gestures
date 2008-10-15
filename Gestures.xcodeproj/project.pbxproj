@@ -11,6 +11,9 @@
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		225D880A0EA44948003CC5F3 /* MatchedGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 225D88090EA44948003CC5F3 /* MatchedGesture.m */; };
+		225D88110EA449F0003CC5F3 /* GestureDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 225D88100EA449F0003CC5F3 /* GestureDefinition.m */; };
+		228AA0240E9DBCD600A435AC /* Gesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 228AA0230E9DBCD600A435AC /* Gesture.m */; };
 		280E754D0DD40C5E005A515E /* FlipsideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 280E754A0DD40C5E005A515E /* FlipsideView.xib */; };
 		280E754E0DD40C5E005A515E /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 280E754B0DD40C5E005A515E /* MainView.xib */; };
 		280E754F0DD40C5E005A515E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 280E754C0DD40C5E005A515E /* MainWindow.xib */; };
@@ -28,6 +31,12 @@
 		1D3623250D0F684500981E51 /* GesturesAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GesturesAppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* Gestures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gestures.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		225D88080EA44948003CC5F3 /* MatchedGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchedGesture.h; sourceTree = "<group>"; };
+		225D88090EA44948003CC5F3 /* MatchedGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchedGesture.m; sourceTree = "<group>"; };
+		225D880F0EA449F0003CC5F3 /* GestureDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureDefinition.h; sourceTree = "<group>"; };
+		225D88100EA449F0003CC5F3 /* GestureDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestureDefinition.m; sourceTree = "<group>"; };
+		228AA0220E9DBCD600A435AC /* Gesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gesture.h; sourceTree = "<group>"; };
+		228AA0230E9DBCD600A435AC /* Gesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gesture.m; sourceTree = "<group>"; };
 		280E754A0DD40C5E005A515E /* FlipsideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlipsideView.xib; sourceTree = "<group>"; };
 		280E754B0DD40C5E005A515E /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
 		280E754C0DD40C5E005A515E /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
@@ -99,6 +108,12 @@
 				289233A50DB2D0840083E9F9 /* MainView.m */,
 				289233A80DB2D0DB0083E9F9 /* MainViewController.h */,
 				289233A90DB2D0DB0083E9F9 /* MainViewController.m */,
+				228AA0220E9DBCD600A435AC /* Gesture.h */,
+				228AA0230E9DBCD600A435AC /* Gesture.m */,
+				225D88080EA44948003CC5F3 /* MatchedGesture.h */,
+				225D88090EA44948003CC5F3 /* MatchedGesture.m */,
+				225D880F0EA449F0003CC5F3 /* GestureDefinition.h */,
+				225D88100EA449F0003CC5F3 /* GestureDefinition.m */,
 			);
 			name = "Main View";
 			sourceTree = "<group>";
@@ -216,6 +231,9 @@
 				289233AE0DB2D0DB0083E9F9 /* MainViewController.m in Sources */,
 				289233AF0DB2D0DB0083E9F9 /* RootViewController.m in Sources */,
 				289233B00DB2D0DB0083E9F9 /* FlipsideViewController.m in Sources */,
+				228AA0240E9DBCD600A435AC /* Gesture.m in Sources */,
+				225D880A0EA44948003CC5F3 /* MatchedGesture.m in Sources */,
+				225D88110EA449F0003CC5F3 /* GestureDefinition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
